@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-table {
+  margin: 1vh;
+  border: 2px solid rgba(212, 57, 212, 0.795);
+  background-color: lavender;
+  width: 550px;
+  border-radius: 10px;
+}
+
+tr {
+  background-color: plum;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .content-table {
+    width: 350px;
+  }
+}
